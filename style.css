@@ -1,0 +1,159 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 'light';
+}
+
+.nav {
+  width: 90%;
+
+}
+
+header {
+
+    margin-bottom: 10px;
+    overflow: hidden;
+    padding: 0px 0px ;
+    text-align: center;
+
+}
+
+.top-container {
+  border-radius: 2%;
+  height:98%;
+  margin: auto;
+  width: 90%;
+}
+
+
+.top {
+background-color: #404041;
+color: #ed458b;
+font-size: 60px;
+overflow: hidden;
+height: 97px;
+margin: 30px;
+width: 95%;
+
+
+}
+
+.guesserpart {
+  color: #E6E7E8;
+  font-weight: 300;
+}
+
+
+main {
+  text-align: center;
+}
+
+.form {
+  display: inline-block;
+  margin:auto;
+  width: 30%;
+}
+
+
+.input-field {
+color: #E6E7E8;
+font-size: 31px;
+font-weight: 300
+height: 43px;
+margin: auto;
+padding-left: 16px;
+width: 425px;
+}
+
+
+.form {
+  margin: 70px;
+  text-align: center;
+}
+
+.guess-btn{
+    background-color: #CACCCD;
+    border-radius: 30px;
+    color: #F9F9F9;
+    display-border: none;
+    font-size: 24;
+    font-weight: 300;
+    height: 40px;
+    margin: 14px;
+    width: 205px;
+}
+
+.lastGuess {
+    color: #404041;
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+
+ .clear-btn {
+    background-color: #CACCCD;
+    border-radius: 30px;
+    color: #F9F9F9;
+    font-size: 24;
+    font-weight: 300;
+    height: 40px;
+    margin: 14px;
+    width: 205px;
+}
+
+h4 {
+  color: #404041;
+  font-weight: light;
+}
+
+
+.bigNumber {
+    color: #ed458b;
+    font-size: 190px;
+    font-weight: 700;
+    font-weight: 300;
+    margin-top: :100px;
+    margin-top: -50px;
+ 
+  }
+
+  button {
+    background-color: #CACCCD;
+    border-radius: 30px;
+    color: #F9F9F9;
+    font-size: 24;
+    font-weight: 300;
+    height: 37px;
+    margin:10px;
+    padding:5px 3px;
+    width: 205px;
+
+  }
+
+  .userbuttons {
+     display: inline-block;
+     padding: 2px 7px;
+  }
+
+  .guess-feedback {
+    text-align: center;
+  }
+  
+
+  .nav {
+    background-color: #FFFFFF;
+    overflow: hidden;
+    padding: 20px 10px;
+  }
+
+  .response {
+    color: #404041;
+    font-size: 30px;
+    font-weight: lighter;
+  }
+
+  .reset-btn {
+    margin: auto;
+    margin: 0px 34;
+    width: 600px;
+
+  }
