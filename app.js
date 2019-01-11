@@ -8,6 +8,7 @@ var randNumber = Math.floor(Math.random() * 99 + 1)
 inputField.addEventListener('keyup', disableEnablebtn)
 guessBtn.addEventListener('click', randomNumber)  
 guessBtn.addEventListener('click', userGuess )
+resetBtn.addEventListener('click', userReset )
 
 
 function disableAndEnablebtn () {
@@ -40,3 +41,13 @@ function userGuess() {
     lastGuess.innerText = guess;
   }
 }
+
+
+
+  function userReset() {
+    console.log('hello')
+    window.location.reload(true);
+
+  }
+
+
