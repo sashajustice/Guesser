@@ -6,6 +6,7 @@ var randNumber = Math.floor(Math.random() * 99 + 1)
 
 
 inputField.addEventListener('keyup', disableEnablebtn)
+guessBtn.addEventListener('click', randomNumber)
 
 
 function disableAndEnablebtn () {
@@ -16,4 +17,9 @@ function disableAndEnablebtn () {
   guessBtn.disabled = true;
   clearBtn.disabled = true;
   }
+}
+
+function randomNumber() {
+ console.log(randNumber)
+ return randNumber
 }
