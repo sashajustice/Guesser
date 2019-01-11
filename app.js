@@ -6,7 +6,8 @@ var randNumber = Math.floor(Math.random() * 99 + 1)
 
 
 inputField.addEventListener('keyup', disableEnablebtn)
-guessBtn.addEventListener('click', randomNumber)
+guessBtn.addEventListener('click', randomNumber)  
+guessBtn.addEventListener('click', userGuess )
 
 
 function disableAndEnablebtn () {
@@ -22,4 +23,20 @@ function disableAndEnablebtn () {
 function randomNumber() {
  console.log(randNumber)
  return randNumber
+}
+
+function userGuess() {
+  var guess = parseInt(inputField.value);
+  var lastGuess = document.querySelector('.bigNumber');
+  var response = document.querySelector('.response');
+
+  if( guess > randNumber) {
+    response.innerText = ("That is too high");
+    lastGuess.innerText = guess;
+  } else if (guess < randNumber) {
+    response.innerText = guess;
+  } else {
+    response.innerText = ("BOOM!")
+    lastGuess.innerText = guess;
+  }
 }
