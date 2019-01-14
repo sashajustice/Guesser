@@ -1,5 +1,5 @@
 # Guesser
-Build a game where user can guess a number between 1 and 100. 
+Build a game where user can guess random numbers between 1 and 100. 
 
 To play game:
 1. git clone https://github.com/sashajustice/Guesser.git
